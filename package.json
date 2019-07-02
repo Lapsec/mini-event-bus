@@ -1,0 +1,11 @@
+{
+  "name": "mini-event-bus",
+  "version": "1.0.0",
+  "description": "eventbus,event,bus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lapsec",
+  "license": "ISC"
+}
