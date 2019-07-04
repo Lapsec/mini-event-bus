@@ -1,6 +1,6 @@
 {
   "name": "mini-event-bus",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "eventbus,event,bus",
   "main": "index.js",
   "scripts": {
