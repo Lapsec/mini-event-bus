@@ -6,7 +6,8 @@ export default {
   input: 'src/index.ts',
   output: {
     file: 'lib/index.js',
-    format: 'umd'
+    format: 'umd',
+    name: 'index.js'
   },
   plugins: [
     resolve(),
