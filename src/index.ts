@@ -1,11 +1,19 @@
 class EventBus {
-  dispatch(eventName: string, payload: object): void {}
+  private dispatch(eventName: string, payload: object): void {
+    return '';
+  }
 
-  addEventListener(eventName: string, callback?: (payload?: object) => void): void {}
+  private addEventListener(eventName: string, callback?: (payload?: object) => void): void {
+    return '';
+  }
 
-  removeEventListener(eventName: string) {}
+  private removeEventListener(eventName: string): void {
+    return '';
+  }
 
-  once(eventName: string, payload: object): void {}
+  private once(eventName: string, payload: object): void {
+    return '';
+  }
 }
 
 

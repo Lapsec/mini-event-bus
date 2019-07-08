@@ -5,12 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/.bin/rollup -c ./rollup.config.js"
+    "build": "node_modules/.bin/rollup -c ./rollup.config.js",
+    "eslint": "eslint ./src/index.ts",
+    "precommit": "npm run eslint"
   },
   "author": "lapsec",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm precommit"
+    }
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.1",
+    "husky": "^3.0.0",
     "rollup": "^1.16.6",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.2.0",
